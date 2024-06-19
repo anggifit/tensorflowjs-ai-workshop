@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8e8e8;
+  font-size: 28px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  padding: 20px 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #292977;
+}
+
+a:hover {
+  color: #555;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+}
+
+#console {
+  background-color: #000;
+  color: rgb(168, 255, 168);
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  overflow: auto;
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word; 
+}

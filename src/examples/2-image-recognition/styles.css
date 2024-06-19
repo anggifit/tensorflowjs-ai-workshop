@@ -1,0 +1,64 @@
+.container {
+  margin-top: 150px;
+}
+
+canvas { display: block; }
+#webcam {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 200px; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+  z-index: 1;
+  border-radius: 5px;
+}
+
+/* Default */
+#console.default-theme {
+  background-color: #000;
+  color: rgb(168, 255, 168);
+}
+
+body.default-theme {
+  background-color: #e8e8e8;
+}
+
+/* Winter */
+body.winter-theme {
+  background-color: #ADD8E6;
+}
+
+#console.winter-theme {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Spring */
+body.spring-theme {
+  background-color: #d3ffe2;
+}
+
+#console.spring-theme {
+  background-color: #000;
+  color: #deef91;
+}
+
+/* Summer */
+body.summer-theme {
+  background-color: #ffe9b1;
+}
+
+#console.summer-theme {
+  background-color: #000;
+  color: #ffa136;
+}
+
+/* Autumn */
+body.autumn-theme {
+  background-color: #ecd9c3;
+}
+
+#console.autumn-theme {
+  background-color: #000;
+  color: #fecb8c;
+}
