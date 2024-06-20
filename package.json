@@ -4,6 +4,9 @@
   "description": "Web project for the Tensorflow.js AI Workshop",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "vite --host",
     "build": "vite build"
@@ -17,7 +20,7 @@
   },
   "devDependencies": {
     "@types/three": "^0.165.0",
-    "@biomejs/biome": "^1.8.1",
+    "@biomejs/biome": "^1.8.2",
     "typescript": "^5.4.5",
     "vite": "^5.3.1"
   }
