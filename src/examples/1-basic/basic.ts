@@ -1,14 +1,14 @@
 import * as tf from "@tensorflow/tfjs";
 import { log } from "./utils.js";
 
-const trainingIterations = 500;
+const trainingIterations = 1500; // we can add more iterations to improve the result
 
 const valuesToPredict = [-2, 5, 25, 84, 90];
 
 // Prepare training Data
-const inputTrainingValues = [0, 1, 2, 3, 4, 5];
-const outputCorrectAnswers = [-1, 0, 1, 2, 3, 4];
-const xs = tf.tensor(inputTrainingValues);
+const inputTrainingValues = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]; // we can add more data to improve the result
+const outputCorrectAnswers = [-1, 0, 1, 2, 3, 4,5, 6, 7, 8];
+const xs = tf.tensor(inputTrainingValues); // siempre se debe convertir a un tensor
 const ys = tf.tensor(outputCorrectAnswers);
 log(`Created tensor (xs) with ${inputTrainingValues} values as training input`);
 log(`Created tensor (ys) with ${outputCorrectAnswers} values as correct answers`);
@@ -50,3 +50,7 @@ for (const value of valuesToPredict) {
   const predictedValue = results[0];
   log(`For value ${value}, the prediction is: ${predictedValue}`);
 }
+
+
+/* to improve the results we can add more iterations and more data */
+
